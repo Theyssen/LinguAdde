@@ -23,11 +23,7 @@ public class Main {
             if (Files.isRegularFile(filePath)) {
                 String fileString = filePath.toString();
                 String fileEx = fileString.substring(fileString.lastIndexOf(".") + 1);
-                int sepLoc = fileString.lastIndexOf("/");
-                if (sepLoc <= 0) {
-                    sepLoc = fileString.lastIndexOf("\\");
-                }
-                String fileResultString = fileString.substring(sepLoc);
+                String fileResultString = fileString.substring(Paths.get(dataFolder).toString().length());
                 ReaderWriter readerWriter = null;
                 Replacer replacer = null;
                 switch (fileEx) {
@@ -47,7 +43,7 @@ public class Main {
                             .readData(fileString, readerWriter)
                             .translate(replacer)
                             .writeData(Paths.get(resultFolder) + fileResultString);
-                    //System.out.println(Paths.get(resultFolder) + fileResultString + " created");
+                    System.out.println(fileResultString + " created");
                 }
             }
         });
