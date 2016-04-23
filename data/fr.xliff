@@ -1,553 +1,570 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.2" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
-  <file original="Minze/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext" target-language="fr">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
-    </header>
-    <body>
-      <trans-unit id="KKV-nW-mVq.text">
-        <source>Minze</source>
-        <target>Minze</target>
-        <note>Class = "UILabel"; text = "Minze"; ObjectID = "KKV-nW-mVq";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Minze/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="fr">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
-    </header>
-    <body>
-      <trans-unit id="0HG-Ep-zZj.normalTitle">
-        <source>Account settings</source>
-        <target>Account settings</target>
-        <note>Class = "UIButton"; normalTitle = "Account settings"; ObjectID = "0HG-Ep-zZj";</note>
-      </trans-unit>
-      <trans-unit id="0S5-M4-vk2.text">
-        <source>Minze</source>
-        <target>Minze</target>
-        <note>Class = "UILabel"; text = "Minze"; ObjectID = "0S5-M4-vk2";</note>
-      </trans-unit>
-      <trans-unit id="1M0-jo-sop.title">
-        <source>Stop</source>
-        <target>Stop</target>
-        <note>Class = "UIBarButtonItem"; title = "Stop"; ObjectID = "1M0-jo-sop";</note>
-      </trans-unit>
-      <trans-unit id="2kR-a0-H0Q.text">
-        <source>Drink</source>
-        <target>Liquid intake</target>
-        <note>Class = "UILabel"; text = "Drink"; ObjectID = "2kR-a0-H0Q";</note>
-      </trans-unit>
-      <trans-unit id="3A0-O1-BcR.normalTitle">
-        <source>Not connected</source>
-        <target>Not connected</target>
-        <note>Class = "UIButton"; normalTitle = "Not connected"; ObjectID = "3A0-O1-BcR";</note>
-      </trans-unit>
-      <trans-unit id="4Xr-mA-jBm.text">
-        <source>Don't have an account?</source>
-        <note>Class = "UILabel"; text = "Don't have an account?"; ObjectID = "4Xr-mA-jBm";</note>
-      </trans-unit>
-      <trans-unit id="5hS-Bi-L5r.text">
-        <source>Record every urine leakage or liquid intake</source>
-        <target>Record every urine leakage or liquid intake</target>
-        <note>Class = "UILabel"; text = "Record every urine leakage or liquid intake"; ObjectID = "5hS-Bi-L5r";</note>
-      </trans-unit>
-      <trans-unit id="6D4-Vu-x8l.normalTitle">
-        <source>Forgot password?</source>
-        <note>Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "6D4-Vu-x8l";</note>
-      </trans-unit>
-      <trans-unit id="36u-VR-XCJ.text">
-        <source>Cycle 2</source>
-        <target>Cycle 2</target>
-        <note>Class = "UILabel"; text = "Cycle 2"; ObjectID = "36u-VR-XCJ";</note>
-      </trans-unit>
-      <trans-unit id="872-SA-bvd.title">
-        <source>Start your cycle</source>
-        <target>Start your cycle</target>
-        <note>Class = "UINavigationItem"; title = "Start your cycle"; ObjectID = "872-SA-bvd";</note>
-      </trans-unit>
-      <trans-unit id="A4X-lE-H68.placeholder">
-        <source>Email</source>
-        <target>Email</target>
-        <note>Class = "UITextField"; placeholder = "Email"; ObjectID = "A4X-lE-H68";</note>
-      </trans-unit>
-      <trans-unit id="BGG-OI-2S0.text">
-        <source>Device Settings</source>
-        <target>Device Settings</target>
-        <note>Class = "UILabel"; text = "Device Settings"; ObjectID = "BGG-OI-2S0";</note>
-      </trans-unit>
-      <trans-unit id="CS6-ho-FLG.title">
-        <source>Timeline</source>
-        <target>Timeline</target>
-        <note>Class = "UIViewController"; title = "Timeline"; ObjectID = "CS6-ho-FLG";</note>
-      </trans-unit>
-      <trans-unit id="CXk-kp-sft.text">
-        <source>Voiding diary</source>
-        <target>Voiding diary</target>
-        <note>Class = "UILabel"; text = "Voiding diary"; ObjectID = "CXk-kp-sft";</note>
-      </trans-unit>
-      <trans-unit id="CnY-U0-rH7.text">
-        <source>Complete 3 full cycles. They don't have to be in a row</source>
-        <target>Complete 3 full cycles. They don't have to be in a row</target>
-        <note>Class = "UILabel"; text = "Complete 3 full cycles. They don't have to be in a row"; ObjectID = "CnY-U0-rH7";</note>
-      </trans-unit>
-      <trans-unit id="Da7-kA-7av.normalTitle">
-        <source>Start</source>
-        <target>Start</target>
-        <note>Class = "UIButton"; normalTitle = "Start"; ObjectID = "Da7-kA-7av";</note>
-      </trans-unit>
-      <trans-unit id="FTt-jP-Ecj.placeholder">
-        <source>Current password</source>
-        <target>Current password</target>
-        <note>Class = "UITextField"; placeholder = "Current password"; ObjectID = "FTt-jP-Ecj";</note>
-      </trans-unit>
-      <trans-unit id="GPA-If-n0O.accessibilityIdentifier">
-        <source>timestampLabel</source>
-        <target>timestampLabel</target>
-        <note>Class = "UILabel"; accessibilityIdentifier = "timestampLabel"; ObjectID = "GPA-If-n0O";</note>
-      </trans-unit>
-      <trans-unit id="GPA-If-n0O.text">
-        <source>12u00</source>
-        <target>12u00</target>
-        <note>Class = "UILabel"; text = "12u00"; ObjectID = "GPA-If-n0O";</note>
-      </trans-unit>
-      <trans-unit id="GRc-H1-NXj.text">
-        <source>Minze</source>
-        <target>Minze</target>
-        <note>Class = "UILabel"; text = "Minze"; ObjectID = "GRc-H1-NXj";</note>
-      </trans-unit>
-      <trans-unit id="HQ5-yH-StB.title">
-        <source>Settings</source>
-        <target>Settings</target>
-        <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "HQ5-yH-StB";</note>
-      </trans-unit>
-      <trans-unit id="IRz-Cp-Rjl.text">
-        <source>Add Drink</source>
-        <note>Class = "UILabel"; text = "Add Drink"; ObjectID = "IRz-Cp-Rjl";</note>
-      </trans-unit>
-      <trans-unit id="J4X-za-g2c.placeholder">
-        <source>Last name</source>
-        <note>Class = "UITextField"; placeholder = "Last name"; ObjectID = "J4X-za-g2c";</note>
-      </trans-unit>
-      <trans-unit id="JWf-ch-BJc.title">
-        <source>Timeline</source>
-        <target>Analysis</target>
-        <note>Class = "UINavigationItem"; title = "Timeline"; ObjectID = "JWf-ch-BJc";</note>
-      </trans-unit>
-      <trans-unit id="OTx-5z-fAs.text">
-        <source>12u00</source>
-        <target>12u00</target>
-        <note>Class = "UILabel"; text = "12u00"; ObjectID = "OTx-5z-fAs";</note>
-      </trans-unit>
-      <trans-unit id="P0D-m0-VVp.text">
-        <source>kg</source>
-        <note>Class = "UILabel"; text = "kg"; ObjectID = "P0D-m0-VVp";</note>
-      </trans-unit>
-      <trans-unit id="PA0-qx-CZx.title">
-        <source>Settings</source>
-        <target>Settings</target>
-        <note>Class = "UIViewController"; title = "Settings"; ObjectID = "PA0-qx-CZx";</note>
-      </trans-unit>
-      <trans-unit id="PHc-7r-dTA.title">
-        <source>Next</source>
-        <target>Next</target>
-        <note>Class = "UIBarButtonItem"; title = "Next"; ObjectID = "PHc-7r-dTA";</note>
-      </trans-unit>
-      <trans-unit id="POh-lH-4TA.text">
-        <source>new -</source>
-        <note>Class = "UILabel"; text = "new -"; ObjectID = "POh-lH-4TA";</note>
-      </trans-unit>
-      <trans-unit id="PVQ-cb-Wvp.text">
-        <source>Turn on bluetooth to connect to the uroflowmeter</source>
-        <target>Make sure bluetooth is turned on to connect to the uroflowmeter</target>
-        <note>Class = "UILabel"; text = "Turn on bluetooth to connect to the uroflowmeter"; ObjectID = "PVQ-cb-Wvp";</note>
-      </trans-unit>
-      <trans-unit id="SGo-06-fZf.placeholder">
-        <source>First name</source>
-        <target>Name</target>
-        <note>Class = "UITextField"; placeholder = "First name"; ObjectID = "SGo-06-fZf";</note>
-      </trans-unit>
-      <trans-unit id="SKa-hN-SW1.placeholder">
-        <source>Date of birth</source>
-        <target>Date of birth</target>
-        <note>Class = "UITextField"; placeholder = "Date of birth"; ObjectID = "SKa-hN-SW1";</note>
-      </trans-unit>
-      <trans-unit id="SvT-nv-LeW.text">
-        <source>- new</source>
-        <note>Class = "UILabel"; text = "- new"; ObjectID = "SvT-nv-LeW";</note>
-      </trans-unit>
-      <trans-unit id="TU8-hZ-F7N.text">
-        <source>How to perform a perfect measurement</source>
-        <target>How to perform a perfect measurement</target>
-        <note>Class = "UILabel"; text = "How to perform a perfect measurement"; ObjectID = "TU8-hZ-F7N";</note>
-      </trans-unit>
-      <trans-unit id="W1o-yt-hnk.placeholder">
-        <source>Weight</source>
-        <target>Weight</target>
-        <note>Class = "UITextField"; placeholder = "Weight"; ObjectID = "W1o-yt-hnk";</note>
-      </trans-unit>
-      <trans-unit id="ZAB-E4-s60.text">
-        <source>100ml</source>
-        <target>100ml</target>
-        <note>Class = "UILabel"; text = "100ml"; ObjectID = "ZAB-E4-s60";</note>
-      </trans-unit>
-      <trans-unit id="ai3-lJ-mwN.title">
-        <source>Next</source>
-        <target>Next</target>
-        <note>Class = "UIBarButtonItem"; title = "Next"; ObjectID = "ai3-lJ-mwN";</note>
-      </trans-unit>
-      <trans-unit id="bdS-gD-XbI.text">
-        <source>Cycle 1</source>
-        <target>Cycle 1</target>
-        <note>Class = "UILabel"; text = "Cycle 1"; ObjectID = "bdS-gD-XbI";</note>
-      </trans-unit>
-      <trans-unit id="cPO-np-Py3.normalTitle">
-        <source>Sign in</source>
-        <target>Login</target>
-        <note>Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "cPO-np-Py3";</note>
-      </trans-unit>
-      <trans-unit id="cxf-9o-O2Z.title">
-        <source>Voiding diary</source>
-        <target>Voiding diary</target>
-        <note>Class = "UINavigationItem"; title = "Voiding diary"; ObjectID = "cxf-9o-O2Z";</note>
-      </trans-unit>
-      <trans-unit id="d7x-oZ-6jB.text">
-        <source>Change password (optional)</source>
-        <target>Change password (optional)</target>
-        <note>Class = "UILabel"; text = "Change password (optional)"; ObjectID = "d7x-oZ-6jB";</note>
-      </trans-unit>
-      <trans-unit id="eCq-QM-yRC.placeholder">
-        <source>New password</source>
-        <target>New password</target>
-        <note>Class = "UITextField"; placeholder = "New password"; ObjectID = "eCq-QM-yRC";</note>
-      </trans-unit>
-      <trans-unit id="eMm-iO-SXg.normalTitle">
-        <source>Logout</source>
-        <note>Class = "UIButton"; normalTitle = "Logout"; ObjectID = "eMm-iO-SXg";</note>
-      </trans-unit>
-      <trans-unit id="eiq-e3-NIp.text">
-        <source>Add Pee Manually</source>
-        <note>Class = "UILabel"; text = "Add Pee Manually"; ObjectID = "eiq-e3-NIp";</note>
-      </trans-unit>
-      <trans-unit id="fGj-AT-jyB.text">
-        <source>Settings</source>
-        <note>Class = "UILabel"; text = "Settings"; ObjectID = "fGj-AT-jyB";</note>
-      </trans-unit>
-      <trans-unit id="fkD-zY-54X.text">
-        <source>Sign in to your account</source>
-        <target>Sign in to your account</target>
-        <note>Class = "UILabel"; text = "Sign in to your account"; ObjectID = "fkD-zY-54X";</note>
-      </trans-unit>
-      <trans-unit id="gBT-cQ-Qvc.placeholder">
-        <source>Password</source>
-        <target>Password</target>
-        <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "gBT-cQ-Qvc";</note>
-      </trans-unit>
-      <trans-unit id="h13-8Y-beV.text">
-        <source>Add Urine Leakage</source>
-        <note>Class = "UILabel"; text = "Add Urine Leakage"; ObjectID = "h13-8Y-beV";</note>
-      </trans-unit>
-      <trans-unit id="jgB-jS-vea.text">
-        <source>Start from morning void to morning void</source>
-        <target>Start from morning void to morning void</target>
-        <note>Class = "UILabel"; text = "Start from morning void to morning void"; ObjectID = "jgB-jS-vea";</note>
-      </trans-unit>
-      <trans-unit id="l9Q-o8-RwG.normalTitle">
-        <source>Start Analysis</source>
-        <target>Start Analysis</target>
-        <note>Class = "UIButton"; normalTitle = "Start Analysis"; ObjectID = "l9Q-o8-RwG";</note>
-      </trans-unit>
-      <trans-unit id="lYP-Qu-qMK.text">
-        <source>Account Settings</source>
-        <target>Account Settings</target>
-        <note>Class = "UILabel"; text = "Account Settings"; ObjectID = "lYP-Qu-qMK";</note>
-      </trans-unit>
-      <trans-unit id="mU5-Ug-lzq.text">
-        <source>Title</source>
-        <target>Title</target>
-        <note>Class = "UILabel"; text = "Title"; ObjectID = "mU5-Ug-lzq";</note>
-      </trans-unit>
-      <trans-unit id="nce-Fs-cnp.normalTitle">
-        <source>IPSS</source>
-        <note>Class = "UIButton"; normalTitle = "IPSS"; ObjectID = "nce-Fs-cnp";</note>
-      </trans-unit>
-      <trans-unit id="nkT-Pa-DSF.text">
-        <source>Cycle 3</source>
-        <target>Cycle 3</target>
-        <note>Class = "UILabel"; text = "Cycle 3"; ObjectID = "nkT-Pa-DSF";</note>
-      </trans-unit>
-      <trans-unit id="oiP-KL-4nX.text">
-        <source>Press the button of the uroflowmeter to turn it on</source>
-        <target>Press the button of the uroflowmeter to turn it on</target>
-        <note>Class = "UILabel"; text = "Press the button of the uroflowmeter to turn it on"; ObjectID = "oiP-KL-4nX";</note>
-      </trans-unit>
-      <trans-unit id="oir-kF-3tY.title">
-        <source>Home</source>
-        <target>Home</target>
-        <note>Class = "UIBarButtonItem"; title = "Home"; ObjectID = "oir-kF-3tY";</note>
-      </trans-unit>
-      <trans-unit id="oj5-zP-zZ1.text">
-        <source>Diary Overview</source>
-        <target>Diary Overview</target>
-        <note>Class = "UILabel"; text = "Diary Overview"; ObjectID = "oj5-zP-zZ1";</note>
-      </trans-unit>
-      <trans-unit id="sHc-Cn-IDa.normalTitle">
-        <source>Sign up</source>
-        <target>Sign up</target>
-        <note>Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "sHc-Cn-IDa";</note>
-      </trans-unit>
-      <trans-unit id="unG-hf-1JI.text">
-        <source>Select uroflowmeter</source>
-        <target>Bluetooth devices</target>
-        <note>Class = "UILabel"; text = "Select uroflowmeter"; ObjectID = "unG-hf-1JI";</note>
-      </trans-unit>
-      <trans-unit id="wZk-k0-40b.placeholder">
-        <source>Repeat password</source>
-        <target>Repeat password</target>
-        <note>Class = "UITextField"; placeholder = "Repeat password"; ObjectID = "wZk-k0-40b";</note>
-      </trans-unit>
-      <trans-unit id="xK5-JL-st9.placeholder">
-        <source>Email address</source>
-        <target>Email address</target>
-        <note>Class = "UITextField"; placeholder = "Email address"; ObjectID = "xK5-JL-st9";</note>
-      </trans-unit>
-      <trans-unit id="y1m-8V-3X0.normalTitle">
-        <source>Questions</source>
-        <note>Class = "UIButton"; normalTitle = "Questions"; ObjectID = "y1m-8V-3X0";</note>
-      </trans-unit>
-      <trans-unit id="zIz-JF-8T3.normalTitle">
-        <source>Treatment overview</source>
-        <target>Treatment overview</target>
-        <note>Class = "UIButton"; normalTitle = "Treatment overview"; ObjectID = "zIz-JF-8T3";</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Minze/Info.plist" source-language="en" datatype="plaintext" target-language="fr">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="Minze/Localizable.strings" source-language="en" datatype="plaintext" target-language="fr">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
-    </header>
-    <body>
-      <trans-unit id="Analysis complete">
-        <source>Analysis complete</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Are you sure you want to stop the analysis?">
-        <source>Are you sure you want to stop the analysis?</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Are you sure you want to stop the current cycle?">
-        <source>Are you sure you want to stop the current cycle?</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Bluetooth is disabled. Please enable it to connect to the uroflowmeter">
-        <source>Bluetooth is disabled. Please enable it to connect to the uroflowmeter</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Camera">
-        <source>Camera</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Cancel">
-        <source>Cancel</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Choose Picture">
-        <source>Choose Picture</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Confirm ">
-        <source>Confirm </source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Confirm time ">
-        <source>Confirm time </source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Connected">
-        <source>Connected</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Could not start analysis, try again later">
-        <source>Could not start analysis, try again later</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Cycle">
-        <source>Cycle</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Done">
-        <source>Done</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Drink">
-        <source>Drink</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Error communicating with server">
-        <source>Error communicating with server</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Error shutting down sensor. Make sure you are connected to the sensor">
-        <source>Error shutting down sensor. Make sure you are connected to the sensor</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Error while sending analysis to server. Try again later">
-        <source>Error while sending analysis to server. Try again later</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Failed">
-        <source>Failed</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Failed to retrieve profile from server. Try again later">
-        <source>Failed to retrieve profile from server. Try again later</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Go to timeline">
-        <source>Go to timeline</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="HH'u'mm">
-        <source>HH'u'mm</source>
-        <note>datetime picker today date format string</note>
-      </trans-unit>
-      <trans-unit id="Incomplete voiding diary entry">
-        <source>Incomplete voiding diary entry</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Invalid password">
-        <source>Invalid password</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Invalid username or password, please try again">
-        <source>Invalid username or password, please try again</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Leakage">
-        <source>Leakage</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Library">
-        <source>Library</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Login failed">
-        <source>Login failed</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Maybe it's time to register a new pee?">
-        <source>Maybe it's time to register a new pee?</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="New pee registered">
-        <source>New pee registered</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="New pee registered. Please fill in your voiding diary">
-        <source>New pee registered. Please fill in your voiding diary</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Next">
-        <source>Next</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="No analysis in progress">
-        <source>No analysis in progress</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="No device found. Please be sure to turn on the uroflowmeter">
-        <source>No device found. Please be sure to turn on the uroflowmeter</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Not connected">
-        <source>Not connected</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="OK">
-        <source>OK</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Passwords don't match">
-        <source>Passwords don't match</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Please tap the yellow button to complete your diary at %@">
-        <source>Please tap the yellow button to complete your diary at %@</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Profile unavailable">
-        <source>Profile unavailable</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Scanning for the uroflowmeter">
-        <source>Scanning for the uroflowmeter</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Start Analysis">
-        <source>Start Analysis</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Start new cycle">
-        <source>Start new cycle</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Stop analysis">
-        <source>Stop analysis</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Stop cycle">
-        <source>Stop cycle</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="You currently have no entries in your timeline. Pees measured by the uroflowmeter will appear here.">
-        <source>You currently have no entries in your timeline. Pees measured by the uroflowmeter will appear here.</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="You currently have no entries in your timeline. You can add them manually or by using the uroflowmeter.">
-        <source>You currently have no entries in your timeline. You can add them manually or by using the uroflowmeter.</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="Your current password was not correct. Please try again">
-        <source>Your current password was not correct. Please try again</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-      <trans-unit id="dd/MM HH'u'mm">
-        <source>dd/MM HH'u'mm</source>
-        <note>datetime picker other day format string</note>
-      </trans-unit>
-      <trans-unit id="ml">
-        <source>ml</source>
-        <note>Milli-liter</note>
-      </trans-unit>
-      <trans-unit id="you completed your assessment, see your doctor for next steps">
-        <source>you completed your assessment, see your doctor for next steps</source>
-        <note>No comment provided by engineer.</note>
-      </trans-unit>
-    </body>
-  </file>
-  <file original="MinzeTests/Info.plist" source-language="en" datatype="plaintext" target-language="fr">
-    <header>
-      <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
-    </header>
-    <body>
-      <trans-unit id="CFBundleName">
-        <source>$(PRODUCT_NAME)</source>
-      </trans-unit>
-      <trans-unit id="CFBundleShortVersionString">
-        <source>1.0</source>
-      </trans-unit>
-    </body>
-  </file>
+<xliff xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2"
+       xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 http://docs.oasis-open.org/xliff/v1.2/os/xliff-core-1.2-strict.xsd">
+    <file original="Minze/Base.lproj/LaunchScreen.storyboard" source-language="en" datatype="plaintext"
+          target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
+        </header>
+        <body>
+            <trans-unit id="KKV-nW-mVq.text">
+                <source>Minze</source>
+                <target>Minze</target>
+                <note>Class = "UILabel"; text = "Minze"; ObjectID = "KKV-nW-mVq";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="Minze/Base.lproj/Main.storyboard" source-language="en" datatype="plaintext" target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
+        </header>
+        <body>
+            <trans-unit id="0HG-Ep-zZj.normalTitle">
+                <source>Account settings</source>
+                <target>Account settings</target>
+                <note>Class = "UIButton"; normalTitle = "Account settings"; ObjectID = "0HG-Ep-zZj";</note>
+            </trans-unit>
+            <trans-unit id="0S5-M4-vk2.text">
+                <source>Minze</source>
+                <target>Minze</target>
+                <note>Class = "UILabel"; text = "Minze"; ObjectID = "0S5-M4-vk2";</note>
+            </trans-unit>
+            <trans-unit id="1M0-jo-sop.title">
+                <source>Stop</source>
+                <target>Stop</target>
+                <note>Class = "UIBarButtonItem"; title = "Stop"; ObjectID = "1M0-jo-sop";</note>
+            </trans-unit>
+            <trans-unit id="2kR-a0-H0Q.text">
+                <source>Drink</source>
+                <target>Liquid intake</target>
+                <note>Class = "UILabel"; text = "Drink"; ObjectID = "2kR-a0-H0Q";</note>
+            </trans-unit>
+            <trans-unit id="3A0-O1-BcR.normalTitle">
+                <source>Not connected</source>
+                <target>Not connected</target>
+                <note>Class = "UIButton"; normalTitle = "Not connected"; ObjectID = "3A0-O1-BcR";</note>
+            </trans-unit>
+            <trans-unit id="4Xr-mA-jBm.text">
+                <source>Don't have an account?</source>
+                <note>Class = "UILabel"; text = "Don't have an account?"; ObjectID = "4Xr-mA-jBm";</note>
+            </trans-unit>
+            <trans-unit id="5hS-Bi-L5r.text">
+                <source>Record every urine leakage or liquid intake</source>
+                <target>Record every urine leakage or liquid intake</target>
+                <note>Class = "UILabel"; text = "Record every urine leakage or liquid intake"; ObjectID =
+                    "5hS-Bi-L5r";
+                </note>
+            </trans-unit>
+            <trans-unit id="6D4-Vu-x8l.normalTitle">
+                <source>Forgot password?</source>
+                <note>Class = "UIButton"; normalTitle = "Forgot password?"; ObjectID = "6D4-Vu-x8l";</note>
+            </trans-unit>
+            <trans-unit id="36u-VR-XCJ.text">
+                <source>Cycle 2</source>
+                <target>Cycle 2</target>
+                <note>Class = "UILabel"; text = "Cycle 2"; ObjectID = "36u-VR-XCJ";</note>
+            </trans-unit>
+            <trans-unit id="872-SA-bvd.title">
+                <source>Start your cycle</source>
+                <target>Start your cycle</target>
+                <note>Class = "UINavigationItem"; title = "Start your cycle"; ObjectID = "872-SA-bvd";</note>
+            </trans-unit>
+            <trans-unit id="A4X-lE-H68.placeholder">
+                <source>Email</source>
+                <target>Email</target>
+                <note>Class = "UITextField"; placeholder = "Email"; ObjectID = "A4X-lE-H68";</note>
+            </trans-unit>
+            <trans-unit id="BGG-OI-2S0.text">
+                <source>Device Settings</source>
+                <target>Device Settings</target>
+                <note>Class = "UILabel"; text = "Device Settings"; ObjectID = "BGG-OI-2S0";</note>
+            </trans-unit>
+            <trans-unit id="CS6-ho-FLG.title">
+                <source>Timeline</source>
+                <target>Timeline</target>
+                <note>Class = "UIViewController"; title = "Timeline"; ObjectID = "CS6-ho-FLG";</note>
+            </trans-unit>
+            <trans-unit id="CXk-kp-sft.text">
+                <source>Voiding diary</source>
+                <target>Voiding diary</target>
+                <note>Class = "UILabel"; text = "Voiding diary"; ObjectID = "CXk-kp-sft";</note>
+            </trans-unit>
+            <trans-unit id="CnY-U0-rH7.text">
+                <source>Complete 3 full cycles. They don't have to be in a row</source>
+                <target>Complete 3 full cycles. They don't have to be in a row</target>
+                <note>Class = "UILabel"; text = "Complete 3 full cycles. They don't have to be in a row"; ObjectID =
+                    "CnY-U0-rH7";
+                </note>
+            </trans-unit>
+            <trans-unit id="Da7-kA-7av.normalTitle">
+                <source>Start</source>
+                <target>Start</target>
+                <note>Class = "UIButton"; normalTitle = "Start"; ObjectID = "Da7-kA-7av";</note>
+            </trans-unit>
+            <trans-unit id="FTt-jP-Ecj.placeholder">
+                <source>Current password</source>
+                <target>Current password</target>
+                <note>Class = "UITextField"; placeholder = "Current password"; ObjectID = "FTt-jP-Ecj";</note>
+            </trans-unit>
+            <trans-unit id="GPA-If-n0O.accessibilityIdentifier">
+                <source>timestampLabel</source>
+                <target>timestampLabel</target>
+                <note>Class = "UILabel"; accessibilityIdentifier = "timestampLabel"; ObjectID = "GPA-If-n0O";</note>
+            </trans-unit>
+            <trans-unit id="GPA-If-n0O.text">
+                <source>12u00</source>
+                <target>12u00</target>
+                <note>Class = "UILabel"; text = "12u00"; ObjectID = "GPA-If-n0O";</note>
+            </trans-unit>
+            <trans-unit id="GRc-H1-NXj.text">
+                <source>Minze</source>
+                <target>Minze</target>
+                <note>Class = "UILabel"; text = "Minze"; ObjectID = "GRc-H1-NXj";</note>
+            </trans-unit>
+            <trans-unit id="HQ5-yH-StB.title">
+                <source>Settings</source>
+                <target>Settings</target>
+                <note>Class = "UINavigationItem"; title = "Settings"; ObjectID = "HQ5-yH-StB";</note>
+            </trans-unit>
+            <trans-unit id="IRz-Cp-Rjl.text">
+                <source>Add Drink</source>
+                <note>Class = "UILabel"; text = "Add Drink"; ObjectID = "IRz-Cp-Rjl";</note>
+            </trans-unit>
+            <trans-unit id="J4X-za-g2c.placeholder">
+                <source>Last name</source>
+                <note>Class = "UITextField"; placeholder = "Last name"; ObjectID = "J4X-za-g2c";</note>
+            </trans-unit>
+            <trans-unit id="JWf-ch-BJc.title">
+                <source>Timeline</source>
+                <target>Analysis</target>
+                <note>Class = "UINavigationItem"; title = "Timeline"; ObjectID = "JWf-ch-BJc";</note>
+            </trans-unit>
+            <trans-unit id="OTx-5z-fAs.text">
+                <source>12u00</source>
+                <target>12u00</target>
+                <note>Class = "UILabel"; text = "12u00"; ObjectID = "OTx-5z-fAs";</note>
+            </trans-unit>
+            <trans-unit id="P0D-m0-VVp.text">
+                <source>kg</source>
+                <note>Class = "UILabel"; text = "kg"; ObjectID = "P0D-m0-VVp";</note>
+            </trans-unit>
+            <trans-unit id="PA0-qx-CZx.title">
+                <source>Settings</source>
+                <target>Settings</target>
+                <note>Class = "UIViewController"; title = "Settings"; ObjectID = "PA0-qx-CZx";</note>
+            </trans-unit>
+            <trans-unit id="PHc-7r-dTA.title">
+                <source>Next</source>
+                <target>Next</target>
+                <note>Class = "UIBarButtonItem"; title = "Next"; ObjectID = "PHc-7r-dTA";</note>
+            </trans-unit>
+            <trans-unit id="POh-lH-4TA.text">
+                <source>new -</source>
+                <note>Class = "UILabel"; text = "new -"; ObjectID = "POh-lH-4TA";</note>
+            </trans-unit>
+            <trans-unit id="PVQ-cb-Wvp.text">
+                <source>Turn on bluetooth to connect to the uroflowmeter</source>
+                <target>Make sure bluetooth is turned on to connect to the uroflowmeter</target>
+                <note>Class = "UILabel"; text = "Turn on bluetooth to connect to the uroflowmeter"; ObjectID =
+                    "PVQ-cb-Wvp";
+                </note>
+            </trans-unit>
+            <trans-unit id="SGo-06-fZf.placeholder">
+                <source>First name</source>
+                <target>Name</target>
+                <note>Class = "UITextField"; placeholder = "First name"; ObjectID = "SGo-06-fZf";</note>
+            </trans-unit>
+            <trans-unit id="SKa-hN-SW1.placeholder">
+                <source>Date of birth</source>
+                <target>Date of birth</target>
+                <note>Class = "UITextField"; placeholder = "Date of birth"; ObjectID = "SKa-hN-SW1";</note>
+            </trans-unit>
+            <trans-unit id="SvT-nv-LeW.text">
+                <source>- new</source>
+                <note>Class = "UILabel"; text = "- new"; ObjectID = "SvT-nv-LeW";</note>
+            </trans-unit>
+            <trans-unit id="TU8-hZ-F7N.text">
+                <source>How to perform a perfect measurement</source>
+                <target>How to perform a perfect measurement</target>
+                <note>Class = "UILabel"; text = "How to perform a perfect measurement"; ObjectID = "TU8-hZ-F7N";</note>
+            </trans-unit>
+            <trans-unit id="W1o-yt-hnk.placeholder">
+                <source>Weight</source>
+                <target>Weight</target>
+                <note>Class = "UITextField"; placeholder = "Weight"; ObjectID = "W1o-yt-hnk";</note>
+            </trans-unit>
+            <trans-unit id="ZAB-E4-s60.text">
+                <source>100ml</source>
+                <target>100ml</target>
+                <note>Class = "UILabel"; text = "100ml"; ObjectID = "ZAB-E4-s60";</note>
+            </trans-unit>
+            <trans-unit id="ai3-lJ-mwN.title">
+                <source>Next</source>
+                <target>Next</target>
+                <note>Class = "UIBarButtonItem"; title = "Next"; ObjectID = "ai3-lJ-mwN";</note>
+            </trans-unit>
+            <trans-unit id="bdS-gD-XbI.text">
+                <source>Cycle 1</source>
+                <target>Cycle 1</target>
+                <note>Class = "UILabel"; text = "Cycle 1"; ObjectID = "bdS-gD-XbI";</note>
+            </trans-unit>
+            <trans-unit id="cPO-np-Py3.normalTitle">
+                <source>Sign in</source>
+                <target>Login</target>
+                <note>Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "cPO-np-Py3";</note>
+            </trans-unit>
+            <trans-unit id="cxf-9o-O2Z.title">
+                <source>Voiding diary</source>
+                <target>Voiding diary</target>
+                <note>Class = "UINavigationItem"; title = "Voiding diary"; ObjectID = "cxf-9o-O2Z";</note>
+            </trans-unit>
+            <trans-unit id="d7x-oZ-6jB.text">
+                <source>Change password (optional)</source>
+                <target>Change password (optional)</target>
+                <note>Class = "UILabel"; text = "Change password (optional)"; ObjectID = "d7x-oZ-6jB";</note>
+            </trans-unit>
+            <trans-unit id="eCq-QM-yRC.placeholder">
+                <source>New password</source>
+                <target>New password</target>
+                <note>Class = "UITextField"; placeholder = "New password"; ObjectID = "eCq-QM-yRC";</note>
+            </trans-unit>
+            <trans-unit id="eMm-iO-SXg.normalTitle">
+                <source>Logout</source>
+                <note>Class = "UIButton"; normalTitle = "Logout"; ObjectID = "eMm-iO-SXg";</note>
+            </trans-unit>
+            <trans-unit id="eiq-e3-NIp.text">
+                <source>Add Pee Manually</source>
+                <note>Class = "UILabel"; text = "Add Pee Manually"; ObjectID = "eiq-e3-NIp";</note>
+            </trans-unit>
+            <trans-unit id="fGj-AT-jyB.text">
+                <source>Settings</source>
+                <note>Class = "UILabel"; text = "Settings"; ObjectID = "fGj-AT-jyB";</note>
+            </trans-unit>
+            <trans-unit id="fkD-zY-54X.text">
+                <source>Sign in to your account</source>
+                <target>Sign in to your account</target>
+                <note>Class = "UILabel"; text = "Sign in to your account"; ObjectID = "fkD-zY-54X";</note>
+            </trans-unit>
+            <trans-unit id="gBT-cQ-Qvc.placeholder">
+                <source>Password</source>
+                <target>Password</target>
+                <note>Class = "UITextField"; placeholder = "Password"; ObjectID = "gBT-cQ-Qvc";</note>
+            </trans-unit>
+            <trans-unit id="h13-8Y-beV.text">
+                <source>Add Urine Leakage</source>
+                <note>Class = "UILabel"; text = "Add Urine Leakage"; ObjectID = "h13-8Y-beV";</note>
+            </trans-unit>
+            <trans-unit id="jgB-jS-vea.text">
+                <source>Start from morning void to morning void</source>
+                <target>Start from morning void to morning void</target>
+                <note>Class = "UILabel"; text = "Start from morning void to morning void"; ObjectID = "jgB-jS-vea";
+                </note>
+            </trans-unit>
+            <trans-unit id="l9Q-o8-RwG.normalTitle">
+                <source>Start Analysis</source>
+                <target>Start Analysis</target>
+                <note>Class = "UIButton"; normalTitle = "Start Analysis"; ObjectID = "l9Q-o8-RwG";</note>
+            </trans-unit>
+            <trans-unit id="lYP-Qu-qMK.text">
+                <source>Account Settings</source>
+                <target>Account Settings</target>
+                <note>Class = "UILabel"; text = "Account Settings"; ObjectID = "lYP-Qu-qMK";</note>
+            </trans-unit>
+            <trans-unit id="mU5-Ug-lzq.text">
+                <source>Title</source>
+                <target>Title</target>
+                <note>Class = "UILabel"; text = "Title"; ObjectID = "mU5-Ug-lzq";</note>
+            </trans-unit>
+            <trans-unit id="nce-Fs-cnp.normalTitle">
+                <source>IPSS</source>
+                <note>Class = "UIButton"; normalTitle = "IPSS"; ObjectID = "nce-Fs-cnp";</note>
+            </trans-unit>
+            <trans-unit id="nkT-Pa-DSF.text">
+                <source>Cycle 3</source>
+                <target>Cycle 3</target>
+                <note>Class = "UILabel"; text = "Cycle 3"; ObjectID = "nkT-Pa-DSF";</note>
+            </trans-unit>
+            <trans-unit id="oiP-KL-4nX.text">
+                <source>Press the button of the uroflowmeter to turn it on</source>
+                <target>Press the button of the uroflowmeter to turn it on</target>
+                <note>Class = "UILabel"; text = "Press the button of the uroflowmeter to turn it on"; ObjectID =
+                    "oiP-KL-4nX";
+                </note>
+            </trans-unit>
+            <trans-unit id="oir-kF-3tY.title">
+                <source>Home</source>
+                <target>Home</target>
+                <note>Class = "UIBarButtonItem"; title = "Home"; ObjectID = "oir-kF-3tY";</note>
+            </trans-unit>
+            <trans-unit id="oj5-zP-zZ1.text">
+                <source>Diary Overview</source>
+                <target>Diary Overview</target>
+                <note>Class = "UILabel"; text = "Diary Overview"; ObjectID = "oj5-zP-zZ1";</note>
+            </trans-unit>
+            <trans-unit id="sHc-Cn-IDa.normalTitle">
+                <source>Sign up</source>
+                <target>Sign up</target>
+                <note>Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "sHc-Cn-IDa";</note>
+            </trans-unit>
+            <trans-unit id="unG-hf-1JI.text">
+                <source>Select uroflowmeter</source>
+                <target>Bluetooth devices</target>
+                <note>Class = "UILabel"; text = "Select uroflowmeter"; ObjectID = "unG-hf-1JI";</note>
+            </trans-unit>
+            <trans-unit id="wZk-k0-40b.placeholder">
+                <source>Repeat password</source>
+                <target>Repeat password</target>
+                <note>Class = "UITextField"; placeholder = "Repeat password"; ObjectID = "wZk-k0-40b";</note>
+            </trans-unit>
+            <trans-unit id="xK5-JL-st9.placeholder">
+                <source>Email address</source>
+                <target>Email address</target>
+                <note>Class = "UITextField"; placeholder = "Email address"; ObjectID = "xK5-JL-st9";</note>
+            </trans-unit>
+            <trans-unit id="y1m-8V-3X0.normalTitle">
+                <source>Questions</source>
+                <note>Class = "UIButton"; normalTitle = "Questions"; ObjectID = "y1m-8V-3X0";</note>
+            </trans-unit>
+            <trans-unit id="zIz-JF-8T3.normalTitle">
+                <source>Treatment overview</source>
+                <target>Treatment overview</target>
+                <note>Class = "UIButton"; normalTitle = "Treatment overview"; ObjectID = "zIz-JF-8T3";</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="Minze/Info.plist" source-language="en" datatype="plaintext" target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
+        </header>
+        <body>
+            <trans-unit id="CFBundleName">
+                <source>$(PRODUCT_NAME)</source>
+            </trans-unit>
+            <trans-unit id="CFBundleShortVersionString">
+                <source>1.0</source>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="Minze/Localizable.strings" source-language="en" datatype="plaintext" target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
+        </header>
+        <body>
+            <trans-unit id="Analysis complete">
+                <source>Analysis complete</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Are you sure you want to stop the analysis?">
+                <source>Are you sure you want to stop the analysis?</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Are you sure you want to stop the current cycle?">
+                <source>Are you sure you want to stop the current cycle?</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Bluetooth is disabled. Please enable it to connect to the uroflowmeter">
+                <source>Bluetooth is disabled. Please enable it to connect to the uroflowmeter</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Camera">
+                <source>Camera</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Cancel">
+                <source>Cancel</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Choose Picture">
+                <source>Choose Picture</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Confirm ">
+                <source>Confirm</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Confirm time ">
+                <source>Confirm time</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Connected">
+                <source>Connected</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Could not start analysis, try again later">
+                <source>Could not start analysis, try again later</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Cycle">
+                <source>Cycle</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Done">
+                <source>Done</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Drink">
+                <source>Drink</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Error communicating with server">
+                <source>Error communicating with server</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Error shutting down sensor. Make sure you are connected to the sensor">
+                <source>Error shutting down sensor. Make sure you are connected to the sensor</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Error while sending analysis to server. Try again later">
+                <source>Error while sending analysis to server. Try again later</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Failed">
+                <source>Failed</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Failed to retrieve profile from server. Try again later">
+                <source>Failed to retrieve profile from server. Try again later</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Go to timeline">
+                <source>Go to timeline</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="HH'u'mm">
+                <source>HH'u'mm</source>
+                <note>datetime picker today date format string</note>
+            </trans-unit>
+            <trans-unit id="Incomplete voiding diary entry">
+                <source>Incomplete voiding diary entry</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Invalid password">
+                <source>Invalid password</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Invalid username or password, please try again">
+                <source>Invalid username or password, please try again</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Leakage">
+                <source>Leakage</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Library">
+                <source>Library</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Login failed">
+                <source>Login failed</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Maybe it's time to register a new pee?">
+                <source>Maybe it's time to register a new pee?</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="New pee registered">
+                <source>New pee registered</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="New pee registered. Please fill in your voiding diary">
+                <source>New pee registered. Please fill in your voiding diary</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Next">
+                <source>Next</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="No analysis in progress">
+                <source>No analysis in progress</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="No device found. Please be sure to turn on the uroflowmeter">
+                <source>No device found. Please be sure to turn on the uroflowmeter</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Not connected">
+                <source>Not connected</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="OK">
+                <source>OK</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Passwords don't match">
+                <source>Passwords don't match</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Please tap the yellow button to complete your diary at %@">
+                <source>Please tap the yellow button to complete your diary at %@</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Profile unavailable">
+                <source>Profile unavailable</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Scanning for the uroflowmeter">
+                <source>Scanning for the uroflowmeter</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Start Analysis">
+                <source>Start Analysis</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Start new cycle">
+                <source>Start new cycle</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Stop analysis">
+                <source>Stop analysis</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Stop cycle">
+                <source>Stop cycle</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit
+                    id="You currently have no entries in your timeline. Pees measured by the uroflowmeter will appear here.">
+                <source>You currently have no entries in your timeline. Pees measured by the uroflowmeter will appear
+                    here.
+                </source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit
+                    id="You currently have no entries in your timeline. You can add them manually or by using the uroflowmeter.">
+                <source>You currently have no entries in your timeline. You can add them manually or by using the
+                    uroflowmeter.
+                </source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="Your current password was not correct. Please try again">
+                <source>Your current password was not correct. Please try again</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+            <trans-unit id="dd/MM HH'u'mm">
+                <source>dd/MM HH'u'mm</source>
+                <note>datetime picker other day format string</note>
+            </trans-unit>
+            <trans-unit id="ml">
+                <source>ml</source>
+                <note>Milli-liter</note>
+            </trans-unit>
+            <trans-unit id="you completed your assessment, see your doctor for next steps">
+                <source>you completed your assessment, see your doctor for next steps</source>
+                <note>No comment provided by engineer.</note>
+            </trans-unit>
+        </body>
+    </file>
+    <file original="MinzeTests/Info.plist" source-language="en" datatype="plaintext" target-language="fr">
+        <header>
+            <tool tool-id="com.apple.dt.xcode" tool-name="Xcode" tool-version="7.2.1" build-num="7C1002"/>
+        </header>
+        <body>
+            <trans-unit id="CFBundleName">
+                <source>$(PRODUCT_NAME)</source>
+            </trans-unit>
+            <trans-unit id="CFBundleShortVersionString">
+                <source>1.0</source>
+            </trans-unit>
+        </body>
+    </file>
 </xliff>

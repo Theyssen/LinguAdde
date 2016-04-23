@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class JsonReplacer implements Replacer{
+public class JsonReplacer implements Replacer {
     @Override
     public String replace(LangData data, String string) {
         Matcher matcher = Pattern.compile("(\"" + data.getKeyLang() + "\":\"(.*?)\").*?}").matcher(string);

@@ -4,7 +4,11 @@
     "nl": "Lekkage"
   },
   "type": "select",
-  "visible": {"not": {"cathederUse": "yes"}},
+  "visible": {
+    "not": {
+      "cathederUse": "yes"
+    }
+  },
   "options": [
     {
       "id": "none",
@@ -18,7 +22,11 @@
       },
       "description": null,
       "image": "LeakageNone",
-      "visible": {"not": {"formName": "leakage"}}
+      "visible": {
+        "not": {
+          "formName": "leakage"
+        }
+      }
     },
     {
       "id": "drops",
@@ -58,7 +66,9 @@
       },
       "description": null,
       "image": "LeakageDiaper",
-      "visible": {"isAdult": false}
+      "visible": {
+        "isAdult": false
+      }
     }
   ]
 }

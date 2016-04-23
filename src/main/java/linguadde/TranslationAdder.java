@@ -6,8 +6,6 @@ import linguadde.readerWriter.CsvReader;
 import linguadde.readerWriter.ReaderWriter;
 import linguadde.replacer.Replacer;
 
-import java.io.File;
-import java.io.Reader;
 import java.util.List;
 
 public class TranslationAdder {
@@ -40,8 +38,8 @@ public class TranslationAdder {
 
     public TranslationAdder printErrors() {
         List<String> keysNotFound = KeyNotFoundException.getKeysNotFound();
-        if (keysNotFound.size()>0) {
-            System.out.println("Keys not found");
+        if (keysNotFound.size() > 0) {
+            System.out.println("\nKeys not found");
             System.out.println("--------------");
             for (String key : keysNotFound) {
                 System.out.println(key);

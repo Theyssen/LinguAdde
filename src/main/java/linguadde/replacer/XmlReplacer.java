@@ -7,7 +7,7 @@ import java.util.List;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-public class XmlReplacer implements Replacer{
+public class XmlReplacer implements Replacer {
     @Override
     public String replace(LangData data, String string) {
         Matcher matcher = Pattern.compile("source-language=\"" + data.getKeyLang() + "\"").matcher(string);

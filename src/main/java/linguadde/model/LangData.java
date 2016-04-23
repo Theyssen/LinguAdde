@@ -8,6 +8,7 @@ public class LangData {
     private String keyLang;
     private List<String> valueLangs;
     private Map<String, List<String>> langData;
+
     public LangData(String keyLang, List<String> valueLangs) {
         this.keyLang = keyLang;
         this.valueLangs = valueLangs;
