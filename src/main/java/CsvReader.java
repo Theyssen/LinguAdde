@@ -1,7 +1,4 @@
-import java.io.BufferedReader;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -15,7 +12,8 @@ public class CsvReader {
         LangData data = null;
         String line = "";
         try {
-            file = new BufferedReader(new FileReader(filename));
+            file = new BufferedReader(new InputStreamReader(
+                    new FileInputStream(filename), "UTF-8"));
             List<String> langList = new ArrayList<String>();
             List<String> valList = new ArrayList<String>();
             langList.addAll(Arrays.asList(file.readLine().toLowerCase().split(DELIMITER)));

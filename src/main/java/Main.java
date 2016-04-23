@@ -1,12 +1,13 @@
-import com.google.gson.JsonObject;
-import org.json.simple.JSONObject;
 import java.io.File;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 public class Main {
     public static void main(String[] args) {
         LangData data = CsvReader.read(new File("").getAbsolutePath() + "/data/json-data.csv");
-        JsonObject json = JsonReader.read(new File("").getAbsolutePath() + "/data/leakage.json");
-        System.out.println(json);
-        JsonReader.write(json, new File("").getAbsolutePath() + "/result/leakage.json");
+        String jsonStr = JsonReader.read(new File("").getAbsolutePath() + "/data/leakage.json");
+        jsonStr = Replacer.replaceJson(data, jsonStr);
+        //System.out.println(jsonStr);
+        JsonReader.write(jsonStr, new File("").getAbsolutePath() + "/result/leakage.json");
     }
 }

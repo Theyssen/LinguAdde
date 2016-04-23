@@ -3,7 +3,7 @@ Add Urine Leakage;Voeg urineverlies toe;Ajoutez fuite d'urine
 Add drink;Voeg drank toe;Ajoutez boisson
 Add pee;Voeg plas manueel toe;Ajoutez miction
 Bed time;Bedtijd;Heure du coucher
-Catheter use;Katheter gebruikt;Utilisation du cathéter
+Catheter use;Katheter gebruikt;Utilisation du cathÃ©ter
 No;Nee;Non
 Yes;Ja;Oui
 Diaper Volume;Luiervolume;Volume de la couche
@@ -14,29 +14,29 @@ Leakage;Urineverlies;Fuite d'urine
 No leakage;Geen ;Aucune fuite d'urine
 Some drops;Enkele druppels;Quelques gouttes
 Drops;Druppels;Gouttes
-Wet underwear/pad needs to be changed;Nat ondergoed/verband dat vervangen moest worden;Sous-vêtements mouillés/Protection doit être remplacée
-Wet underwear/pad;Nat ondergoed/verband;Sous-vêtements/protection mouillé(e)(s)
-Wet diaper changed;Natte pamper vervangen;Couche mouillée remplacée
-Wet diaper;Natte pamper;Couche mouillée
+Wet underwear/pad needs to be changed;Nat ondergoed/verband dat vervangen moest worden;Sous-vÃªtements mouillÃ©s/Protection doit Ãªtre remplacÃ©e
+Wet underwear/pad;Nat ondergoed/verband;Sous-vÃªtements/protection mouillÃ©(e)(s)
+Wet diaper changed;Natte pamper vervangen;Couche mouillÃ©e remplacÃ©e
+Wet diaper;Natte pamper;Couche mouillÃ©e
 Type of pee;Type plasbeurt;Type de miction
-Pee during the day;Plasbeurt tijdens de dag;Miction pendant la journée
+Pee during the day;Plasbeurt tijdens de dag;Miction pendant la journÃ©e
 Daytime;Overdag;Jour
 Pee at night's rest;Plasbeurt tijdens nachtrust;Miction pendant la nuit
 Nighttime;S nachts;Nuit
-First morning pee;Eerste plasbeurt na opstaan;Première miction après le lever
+First morning pee;Eerste plasbeurt na opstaan;PremiÃ¨re miction aprÃ¨s le lever
 Wakeup;Opstaan;Le lever 
 Time of event;Tijdstip;Quand?
 Urge;Aandrang;Le besoin
 Social reasons;Sociale redenen;Raisons sociales
-No sensation of needing to pass urine, but passed urine for 'social reasons', eg just before going out or unsure where the next toilet is.;Geen aandrang, maar geplast om 'sociale redenen' zoals net voor het buiten gaan of onzekerheid over waar het volgende toilet is;Aucune sensation de besoin d'uriner, raisons sociales: juste avant de sortir, incertitude disponibilité d'une toilette
+No sensation of needing to pass urine, but passed urine for 'social reasons', eg just before going out or unsure where the next toilet is.;Geen aandrang, maar geplast om 'sociale redenen' zoals net voor het buiten gaan of onzekerheid over waar het volgende toilet is;Aucune sensation de besoin d'uriner, raisons sociales: juste avant de sortir, incertitude disponibilitÃ© d'une toilette
 Normall will;Normale urgentie;Urgence normale
 Normal desire to pass urine and no urgency;Normaal gevoel van te moeten plassen, niet dringend;Sensation de besoin d'uriner normale, pas urgent
-Previous urgency;Eerdere urgentie;Urgence précédente
-Urgency but it had passed away before you had to visit the toilet.;Dringend, maar het ging over voor het toiletbezoek;Urgence, mais passée avant d'aller aux toilettes
-Controlled urgency;Gecontroleerde urgentie;Urgence contrôlée
-Urgency but managed to get to the toilet, still with urgency, but did not leak urine.;Dringend, maar op tijd geplast, nog steeds dringend maar zonder urineverlies;Urgence, mais réussi à se rendre aux toilettes à temps sans fuite d'urine
-Uncontrollable urgency;Oncontroleerbare urgentie;Urgence incontrôlable
-Urgency and could not get to the toilet in time so leaked urine;Dringend, geraakte niet op tijd op toilet en verloor urine;Urgence et n'a pas réussi à se rendre aux toilettes à temps alors fuite d'urine
+Previous urgency;Eerdere urgentie;Urgence prÃ©cÃ©dente
+Urgency but it had passed away before you had to visit the toilet.;Dringend, maar het ging over voor het toiletbezoek;Urgence, mais passÃ©e avant d'aller aux toilettes
+Controlled urgency;Gecontroleerde urgentie;Urgence contrÃ´lÃ©e
+Urgency but managed to get to the toilet, still with urgency, but did not leak urine.;Dringend, maar op tijd geplast, nog steeds dringend maar zonder urineverlies;Urgence, mais rÃ©ussi Ã  se rendre aux toilettes Ã  temps sans fuite d'urine
+Uncontrollable urgency;Oncontroleerbare urgentie;Urgence incontrÃ´lable
+Urgency and could not get to the toilet in time so leaked urine;Dringend, geraakte niet op tijd op toilet en verloor urine;Urgence et n'a pas rÃ©ussi Ã  se rendre aux toilettes Ã  temps alors fuite d'urine
 I don't know;Ik weet het niet;Je ne sais pas
 Unknown;Onbekend;Inconnu
 Volume;Volume;Volume
@@ -45,4 +45,4 @@ eg. little cup, juice box;bv. klein kopje of brikje;ex. petite tasse, boite de j
 eg. mug, can;bv. mok, blikje;ex. gobelet, canette
 500 ml or more;500 ml of meer;500 ml ou plus
 eg. bowl, bottle;bv. kom, flesje;ex. bol, bouteille
-Wake-up time;Tijdstip van opstaan;Le temps de se réveiller
+Wake-up time;Tijdstip van opstaan;Le temps de se rÃ©veiller

@@ -1,39 +1,32 @@
-
-
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.google.gson.JsonObject;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonParser;
-import org.json.simple.JSONObject;
-import org.json.simple.parser.JSONParser;
-import org.json.simple.parser.ParseException;
 
 import java.io.*;
 
 public class JsonReader {
-    public static JsonObject read(String filename) {
+    public static String read(String filename) {
         try {
-            return (new JsonParser()).parse(new FileReader(filename)).getAsJsonObject();
+            return (new JsonParser()).parse(
+                    new BufferedReader(
+                            new InputStreamReader(
+                                    new FileInputStream(filename), "UTF-8"))).toString();
         } catch (FileNotFoundException e) {
+            e.printStackTrace();
+        } catch (UnsupportedEncodingException e) {
             e.printStackTrace();
         }
         return null;
-        /*JSONParser parser = new JSONParser();
-        try {
-            return (JSONObject) parser.parse(new FileReader(filename));
-        } catch (IOException e) {
-            e.printStackTrace();
-        } catch (ParseException e) {
-            e.printStackTrace();
-        }
-        return null;*/
     }
 
-    public static void write(JsonObject json, String filename) {
-        Gson gson = new GsonBuilder().setPrettyPrinting().create();
+    public static void write(String jsonStr, String filename) {
+        Gson gson = new GsonBuilder().setPrettyPrinting().disableHtmlEscaping().create();
         try {
-            FileWriter writer = new FileWriter(filename);
-            writer.write(gson.toJson(json));
+            BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
+                    new FileOutputStream(filename), "UTF-8"));
+            JsonElement element = new JsonParser().parse(jsonStr);
+            writer.write(gson.toJson(element));
             writer.flush();
             writer.close();
         } catch (IOException e) {
