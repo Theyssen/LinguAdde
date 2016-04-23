@@ -1,25 +1,26 @@
 import linguadde.TranslationAdder;
 import linguadde.readerWriter.JsonReader;
+import linguadde.readerWriter.XmlReader;
 import linguadde.replacer.JsonReplacer;
+import linguadde.replacer.XmlReplacer;
 
 import java.io.File;
 
 public class Main {
     public static void main(String[] args) {
-        new TranslationAdder()
-                .importTranslationData(new File("").getAbsolutePath() + "/data/translations.csv")
+        TranslationAdder translationAdder = new TranslationAdder()
+                .importTranslationData(new File("").getAbsolutePath() + "/data/translations.csv");
+
+        translationAdder
                 .readData(new File("").getAbsolutePath() + "/data/leakage.json", new JsonReader())
                 .translate(new JsonReplacer())
-                .writeData(new File("").getAbsolutePath() + "/result/leakage.json")
-                .printErrors();
+                .writeData(new File("").getAbsolutePath() + "/result/leakage.json");
 
+        translationAdder
+                .readData(new File("").getAbsolutePath() + "/data/fr.xliff", new XmlReader())
+                .translate(new XmlReplacer())
+                .writeData(new File("").getAbsolutePath() + "/result/fr.xliff");
 
-        /*String jsonStr = JsonReader.read(new File("").getAbsolutePath() + "/data/leakage.json");
-        jsonStr = JsonReplacer.replaceJson(langData, jsonStr);
-        JsonReader.write(jsonStr, new File("").getAbsolutePath() + "/result/leakage.json");
-
-        String xmlStr = XmlReader.read(new File("").getAbsolutePath() + "/data/fr.xliff");
-        xmlStr = JsonReplacer.replaceXml(langData, xmlStr);
-        XmlReader.write(xmlStr, new File("").getAbsolutePath() + "/result/fr.xliff");*/
+        translationAdder.printErrors();
     }
 }
