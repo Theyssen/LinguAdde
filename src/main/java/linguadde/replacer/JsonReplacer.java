@@ -17,7 +17,7 @@ public class JsonReplacer implements Replacer {
             List<String> translations = data.getTranslations(matcher.group(2));
             if (translations != null) {
                 String transStr = "";
-                for (int i = 0; i < valueLangs.size(); i++) {
+                for (int i = 0; i < translations.size(); i++) {
                     transStr += String.format(",\"%s\":\"%s\"", valueLangs.get(i), translations.get(i));
                 }
                 matcher.appendReplacement(sb, String.format("$1%s}", transStr));

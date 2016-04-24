@@ -29,8 +29,10 @@ public class CsvReader {
                 langList = new ArrayList<String>();
                 valList = new ArrayList<String>();
                 langList.addAll(Arrays.asList(line.split(DELIMITER)));
-                valList.addAll(langList.subList(1, langList.size()));
-                data.addData(langList.get(0), valList);
+                if (langList.size() > 0) {
+                    valList.addAll(langList.subList(1, langList.size()));
+                    data.addData(langList.get(0), valList);
+                }
             }
         } catch (IOException e) {
             e.printStackTrace();

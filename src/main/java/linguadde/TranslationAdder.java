@@ -1,6 +1,7 @@
 package linguadde;
 
 import linguadde.exception.KeyNotFoundException;
+import linguadde.exception.NoTranslationException;
 import linguadde.model.LangData;
 import linguadde.readerWriter.CsvReader;
 import linguadde.readerWriter.ReaderWriter;
@@ -43,6 +44,14 @@ public class TranslationAdder {
             System.out.println("--------------");
             for (String key : keysNotFound) {
                 System.out.println(key);
+            }
+        }
+        Set<String> messages = NoTranslationException.getMessages();
+        if (messages.size() > 0) {
+            System.out.println("\nNo Translation");
+            System.out.println("--------------");
+            for (String message : messages) {
+                System.out.println(message);
             }
         }
         return this;

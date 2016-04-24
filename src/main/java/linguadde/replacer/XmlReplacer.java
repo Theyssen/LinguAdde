@@ -1,6 +1,7 @@
 package linguadde.replacer;
 
 import linguadde.exception.KeyNotFoundException;
+import linguadde.exception.NoTranslationException;
 import linguadde.model.LangData;
 
 import java.util.List;
@@ -18,14 +19,19 @@ public class XmlReplacer implements Replacer {
 
         matcher.usePattern(Pattern.compile("target-language=\"(.*?)\""));
         matcher.find();
-        int targetLangId = data.getValueLangs().indexOf(matcher.group(1));
+        String targetLang = matcher.group(1);
+        int targetLangId = data.getValueLangs().indexOf(targetLang);
 
         matcher.usePattern(Pattern.compile("((\\s*?)<source>(.*?)</source>)(\\s*?<target>.*?</target>)?"));
         StringBuffer sb = new StringBuffer();
         while (matcher.find()) {
             List<String> translations = data.getTranslations(matcher.group(3));
             if (translations != null) {
-                matcher.appendReplacement(sb, String.format("$1$2<target>%s</target>}", translations.get(targetLangId)));
+                if (translations.size() > targetLangId) {
+                    matcher.appendReplacement(sb, String.format("$1$2<target>%s</target>}", translations.get(targetLangId)));
+                } else {
+                    new NoTranslationException(String.format("%s: %s", targetLang, matcher.group(3)));
+                }
             } else {
                 new KeyNotFoundException(matcher.group(3));
             }
