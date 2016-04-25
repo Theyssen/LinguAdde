@@ -6,15 +6,18 @@ import linguadde.replacer.JsonReplacer;
 import linguadde.replacer.Replacer;
 import linguadde.replacer.XmlReplacer;
 
+import java.io.File;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+        handleArguments(args);
+
         String translationFile = args[0];
         String dataFolder = args[1];
-        String resultFolder = args[2];
+        String resultFolder = dataFolder;
 
         TranslationAdder translationAdder = new TranslationAdder()
                 .importTranslationData(translationFile);
@@ -43,13 +46,38 @@ public class Main {
                             .readData(fileString, readerWriter)
                             .translate(replacer)
                             .writeData(Paths.get(resultFolder) + fileResultString);
-                    System.out.println(fileResultString + " created");
+                    System.out.println(fileResultString + " updated");
                 }
             }
         });
 
         translationAdder.printErrors();
 
-        System.out.println("\n\nProcessing finished");
+        System.out.println("\n\nSuccess: processing finished");
+    }
+
+    private static void handleArguments(String[] args) {
+        if (args.length != 2) {
+            System.out.println("Incorrect number of arguments!\n");
+            showHelp();
+            System.exit(1);
+        }
+        if (!Files.isRegularFile(Paths.get(args[0]))) {
+            System.out.println(args[0] + " is not a file!\n");
+            showHelp();
+            System.exit(1);
+        }
+        if (!Files.isDirectory(Paths.get(args[1]))) {
+            System.out.println(args[1] + " is not a directory!\n");
+            showHelp();
+            System.exit(1);
+        }
+
+    }
+
+    private static void showHelp() {
+        System.out.println(
+                "Help"
+        );
     }
 }
