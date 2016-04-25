@@ -57,27 +57,30 @@ public class Main {
     }
 
     private static void handleArguments(String[] args) {
+        if (args.length == 1 && args[0].equals("help")) {
+            showHelp();
+            System.exit(0);
+        }
         if (args.length != 2) {
-            System.out.println("Incorrect number of arguments!\n");
+            System.out.println("Incorrect number of arguments!");
             showHelp();
             System.exit(1);
         }
         if (!Files.isRegularFile(Paths.get(args[0]))) {
-            System.out.println(args[0] + " is not a file!\n");
+            System.out.println("Argument " + args[0] + " is not a file!");
             showHelp();
             System.exit(1);
         }
         if (!Files.isDirectory(Paths.get(args[1]))) {
-            System.out.println(args[1] + " is not a directory!\n");
+            System.out.println("Argument " + args[1] + " is not a directory!");
             showHelp();
             System.exit(1);
         }
-
     }
 
     private static void showHelp() {
         System.out.println(
-                "Help"
+                "\nHelp"
         );
     }
 }
