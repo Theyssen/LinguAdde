@@ -2,6 +2,7 @@ package linguadde;
 
 import linguadde.exception.KeyNotFoundException;
 import linguadde.exception.NoTranslationException;
+import linguadde.exception.ReaderWriterException;
 import linguadde.model.LangData;
 import linguadde.readerWriter.CsvReader;
 import linguadde.readerWriter.ReaderWriter;
@@ -15,12 +16,12 @@ public class TranslationAdder {
     private String stringData;
     private Replacer replacer;
 
-    public TranslationAdder importTranslationData(String filename) {
+    public TranslationAdder importTranslationData(String filename) throws ReaderWriterException {
         this.langData = CsvReader.read(filename);
         return this;
     }
 
-    public TranslationAdder readData(String filename, ReaderWriter readerWriter) {
+    public TranslationAdder readData(String filename, ReaderWriter readerWriter) throws ReaderWriterException {
         this.readerWriter = readerWriter;
         this.stringData = readerWriter.read(filename);
         return this;
@@ -32,12 +33,12 @@ public class TranslationAdder {
         return this;
     }
 
-    public TranslationAdder writeData(String filename) {
+    public TranslationAdder writeData(String filename) throws ReaderWriterException {
         this.readerWriter.write(this.stringData, filename);
         return this;
     }
 
-    public TranslationAdder printErrors() {
+    public TranslationAdder printWarnings() {
         Set<String> keysNotFound = KeyNotFoundException.getKeysNotFound();
         if (keysNotFound.size() > 0) {
             System.out.println("\nKeys not found");

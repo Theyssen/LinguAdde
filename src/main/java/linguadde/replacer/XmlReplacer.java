@@ -16,7 +16,6 @@ public class XmlReplacer implements Replacer {
             System.out.println("Could not find key language as source language!");
             return string;
         }
-
         matcher.usePattern(Pattern.compile("target-language=\"(.*?)\""));
         matcher.find();
         String targetLang = matcher.group(1);

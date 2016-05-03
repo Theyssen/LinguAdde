@@ -1,7 +1,9 @@
 package linguadde.readerWriter;
 
-public interface ReaderWriter {
-    String read(String filename);
+import linguadde.exception.ReaderWriterException;
 
-    void write(String string, String filename);
+public interface ReaderWriter {
+    String read(String filename) throws ReaderWriterException;
+
+    void write(String string, String filename) throws ReaderWriterException;
 }
