@@ -16,7 +16,10 @@ public class TranslationAdder {
     private String stringData;
     private Replacer replacer;
 
-    public TranslationAdder importTranslationData(String filename) throws ReaderWriterException {
+    public TranslationAdder importTranslationData(String filename, String delimiter) throws ReaderWriterException {
+        if (delimiter != null) {
+            CsvReader.setDelimiter(delimiter);
+        }
         this.langData = CsvReader.read(filename);
         return this;
     }

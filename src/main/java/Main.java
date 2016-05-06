@@ -6,21 +6,24 @@ import linguadde.readerWriter.XmlReader;
 import linguadde.replacer.JsonReplacer;
 import linguadde.replacer.Replacer;
 import linguadde.replacer.XmlReplacer;
+import org.apache.commons.cli.*;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
 public class Main {
-    private static String translationFile;
-    private static String sourceFolder;
-    private static String resultFolder;
+    private static Options options;
+    private static String translationFile = null;
+    private static String sourceFolder = null;
+    private static String resultFolder = null;
+    private static String delimiter = null;
 
     public static void main(String[] args) {
         handleArguments(args);
         try {
             TranslationAdder translationAdder = new TranslationAdder()
-                    .importTranslationData(translationFile);
+                    .importTranslationData(translationFile, delimiter);
             Files.walk(Paths.get(sourceFolder)).forEach(filePath -> {
                 if (Files.isRegularFile(filePath)) {
                     String fileString = filePath.toString();
@@ -64,6 +67,35 @@ public class Main {
     }
 
     private static void handleArguments(String[] args) {
+        options = new Options();
+        options.addOption(Option.builder("c").longOpt("csv-file")
+                .desc("CSV file with translationdata")
+                .required()
+                .hasArg().argName("file")
+                .build());
+        options.addOption(Option.builder("t").longOpt("target")
+                .desc("Target translation files")
+                .required()
+                .hasArg().argName("folder")
+                .build());
+        options.addOption(Option.builder("d").longOpt("delimiter").argName("delimiter")
+                .desc("CSV delimiter Default: ;")
+                .hasArg()
+                .build());
+        options.addOption(Option.builder("h").longOpt("help")
+                .desc("Show help information")
+                .build());
+
+        CommandLineParser parser = new DefaultParser();
+        try {
+            CommandLine cmd = parser.parse(options, args);
+        } catch (ParseException e) {
+            System.err.println( "Parsing failed. Reason: " + e.getMessage());
+            showHelp();
+            System.exit(1);
+        }
+
+
         if (args.length == 1 && args[0].equals("help")) {
             showHelp();
             System.exit(0);
@@ -95,8 +127,13 @@ public class Main {
     }
 
     private static void showHelp() {
-        System.out.println(
-                "\nHelp"
-        );
+        String jarName = new java.io.File(Main.class.getProtectionDomain()
+                .getCodeSource().getLocation().getPath()).getName();
+        String header = "Add translations in data files\n\n";
+        String footer = "\n";
+
+        System.out.println("\n");
+        HelpFormatter formatter = new HelpFormatter();
+        formatter.printHelp( "java -jar " + jarName, header, options, footer, true );
     }
 }
