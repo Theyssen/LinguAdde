@@ -27,7 +27,7 @@ public class XmlReplacer implements Replacer {
             List<String> translations = data.getTranslations(matcher.group(3));
             if (translations != null) {
                 if (translations.size() > targetLangId) {
-                    matcher.appendReplacement(sb, String.format("$1$2<target>%s</target>}", translations.get(targetLangId)));
+                    matcher.appendReplacement(sb, String.format("$1$2<target>%s</target>", translations.get(targetLangId)));
                 } else {
                     new NoTranslationException(String.format("%s: %s", targetLang, matcher.group(3)));
                 }
