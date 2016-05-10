@@ -43,7 +43,7 @@ public class Main {
                         default:
                             System.out.println("Could not process " + fileString + ": Unknown file type!");
                     }
-                    if (readerWriter != null && replacer != null) {
+                    if (readerWriter != null) {
                         try {
                             translationAdder
                                     .readData(fileString, readerWriter)
@@ -82,42 +82,31 @@ public class Main {
                 .desc("CSV delimiter Default: ;")
                 .hasArg()
                 .build());
-        options.addOption(Option.builder("h").longOpt("help")
-                .desc("Show help information")
-                .build());
 
-        CommandLineParser parser = new DefaultParser();
-        try {
-            CommandLine cmd = parser.parse(options, args);
-        } catch (ParseException e) {
-            System.err.println( "Parsing failed. Reason: " + e.getMessage());
-            showHelp();
-            System.exit(1);
-        }
-
-
-        if (args.length == 1 && args[0].equals("help")) {
+        if (args[0].equals("help")) {
             showHelp();
             System.exit(0);
         }
-        if (args.length != 2) {
-            System.out.println("Incorrect number of arguments!");
-            showHelp();
-            System.exit(1);
+        CommandLineParser parser = new DefaultParser();
+        try {
+            CommandLine cmd = parser.parse(options, args);
+            translationFile = cmd.getOptionValue("c");
+            if (!Files.isRegularFile(Paths.get(translationFile))) {
+                throw new Exception("Argument " + translationFile + " is not a file!");
+            }
+            sourceFolder = cmd.getOptionValue("t");
+            resultFolder = sourceFolder;
+            if (!Files.isDirectory(Paths.get(sourceFolder))) {
+                throw new Exception("Argument " + sourceFolder + " is not a directory!");
+            }
+            if (cmd.hasOption("d")) {
+                delimiter = cmd.getOptionValue("d");
+            }
+        } catch (ParseException e) {
+            handleError(new Exception("Parsing failed. Reason: " + e.getMessage()));
+        } catch (Exception e) {
+            handleError(e);
         }
-        if (!Files.isRegularFile(Paths.get(args[0]))) {
-            System.out.println("Argument " + args[0] + " is not a file!");
-            showHelp();
-            System.exit(1);
-        }
-        if (!Files.isDirectory(Paths.get(args[1]))) {
-            System.out.println("Argument " + args[1] + " is not a directory!");
-            showHelp();
-            System.exit(1);
-        }
-        translationFile = args[0];
-        sourceFolder = args[1];
-        resultFolder = sourceFolder;
     }
 
     private static void handleError(Exception e) {
